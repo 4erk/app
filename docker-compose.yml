@@ -4,10 +4,11 @@ services:
   app:
     build:
       context: .
+      dockerfile: images/prod/Dockerfile
       args:
-        ENV: "prod"
-        DEBUG: false
-    image: 4erk/swoole-app:latest
+        ENV: "PRODUCTION"
+        SWOOLE_TIMEZONE: "UTC"
+    image: 4erk/app:latest
     volumes:
       - ./:/var/www
     ports:
