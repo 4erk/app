@@ -1,0 +1,17 @@
+{
+  "name": "4erk/app",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "4erk",
+      "email": "mr4erk@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+
+  }
+}
